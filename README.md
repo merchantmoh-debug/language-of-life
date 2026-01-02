@@ -159,8 +159,7 @@ If you use this pipeline in your research, please cite:
 }
 ```
 
-Full paper: [DOI Link - To be added]
-
+Full paper: [https://doi.org/10.5281/zenodo.17877087](https://doi.org/10.5281/zenodo.17877087)
 ## Contributing
 
 Contributions welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
