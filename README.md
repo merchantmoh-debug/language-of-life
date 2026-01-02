@@ -197,8 +197,7 @@ Founder, ARK Research Division
 
 - GitHub: [@merchantmoh-debug](https://github.com/merchantmoh-debug)
 - LinkedIn: [Profile](https://linkedin.com/in/your-profile)
-- Email: your-email@example.com
-
+- Email: merchantmoh@gmail.co,
 ---
 
 **Status**: Active Development | **Version**: 0.1.0-alpha | **Last Updated**: January 2026
