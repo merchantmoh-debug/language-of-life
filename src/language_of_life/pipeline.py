@@ -28,7 +28,9 @@ class DrugDiscoveryPipeline:
         structure = self.folder.fold(prot)
 
         # Save PDB
-        pdb_path = os.path.join(output_dir, f"{prot.id}.pdb")
+        # Sentinel: Sanitize ID to prevent path traversal
+        safe_id = "".join([c for c in prot.id if c.isalnum() or c in ('_', '-')])
+        pdb_path = os.path.join(output_dir, f"{safe_id}.pdb")
         with open(pdb_path, "w") as f:
             f.write(structure.pdb_content)
 
